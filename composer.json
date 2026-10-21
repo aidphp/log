@@ -1,0 +1,30 @@
+{
+    "name": "aidphp/log",
+    "description": "Logging utility for Aidphp framework",
+    "type": "library",
+    "license": "MIT",
+    "keywords" : [
+		"log",
+		"Logging",
+		"psr-3"
+	],
+	"authors" : [{
+			"name" : "Maxime Bourmaut"
+		}
+	],
+    "require": {
+        "php": ">=8.2",
+        "psr/log": "^2.0 || ^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aidphp\\Log\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aidphp\\Log\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
